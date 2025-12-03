@@ -63,68 +63,68 @@ VALUES (1954839243, 'Fiction', 'F. Scott Fitzgerald', 'The Great Gatsby', 'Charl
 
 -- CDs
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (5467377580, 'Synth-pop', '1989', 'Taylor Swift', 'Big Machine Records');
+VALUES (546737758, 'Synth-pop', '1989', 'Taylor Swift', 'Big Machine Records');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (6213712033, 'Pop', 'Divide', 'Ed Sheeran', 'Atlantic Records');
+VALUES (621371203, 'Pop', 'Divide', 'Ed Sheeran', 'Atlantic Records');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (7619019417, 'Pop', '21', 'Adele', 'XL Recordings');
+VALUES (761901941, 'Pop', '21', 'Adele', 'XL Recordings');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (9923690515, 'Rock', 'Abbey Road', 'The Beatles', 'Apple Records');
+VALUES (992369051, 'Rock', 'Abbey Road', 'The Beatles', 'Apple Records');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (7578602802, 'Hip-Hop', 'Views', 'Drake', 'Cash Money Records');
+VALUES (757860280, 'Hip-Hop', 'Views', 'Drake', 'Cash Money Records');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (6749829187, 'R&B', 'Lemonade', 'Beyonce', 'Columbia Records');
+VALUES (674982918, 'R&B', 'Lemonade', 'Beyonce', 'Columbia Records');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (4382985522, 'Pop', 'Teenage Dream', 'Katy Perry', 'Capitol Records');
+VALUES (438298552, 'Pop', 'Teenage Dream', 'Katy Perry', 'Capitol Records');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (9400804225, 'Pop', 'Starboy', 'The Weeknd', 'XO Records');
+VALUES (940080422, 'Pop', 'Starboy', 'The Weeknd', 'XO Records');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (2357624816, 'Psychedelic Rock', 'Dark Side of the Moon', 'Pink Floyd', 'Capitol Records');
+VALUES (235762481, 'Psychedelic Rock', 'Dark Side of the Moon', 'Pink Floyd', 'Capitol Records');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (8245389784, 'Pop', 'Thriller', 'Michael Jackson', 'Epic Records');
+VALUES (824538978, 'Pop', 'Thriller', 'Michael Jackson', 'Epic Records');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (3486380781,'EDM', 'Purpose', 'Justin Bieber', 'Def Jam Recordings');
+VALUES (348638078,'EDM', 'Purpose', 'Justin Bieber', 'Def Jam Recordings');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (6690802415, 'Soul', 'In the Lonely Hour', 'Sam Smith', 'Capitol Records');
+VALUES (669080241, 'Soul', 'In the Lonely Hour', 'Sam Smith', 'Capitol Records');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (2643901991, 'Synth-pop', 'The Fame', 'Lady Gaga', 'Interscope Records');
+VALUES (264390199, 'Synth-pop', 'The Fame', 'Lady Gaga', 'Interscope Records');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (6351008289, 'Rock and Roll', 'Born to Run', 'Bruce Springsteen', 'Columbia Records');
+VALUES (635100828, 'Rock and Roll', 'Born to Run', 'Bruce Springsteen', 'Columbia Records');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (6040616970, 'Pop Rock', 'Songs About Jane', 'Maroon 5', 'Octone Records');
+VALUES (604061697, 'Pop Rock', 'Songs About Jane', 'Maroon 5', 'Octone Records');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (5861581378, 'Grunge', 'Nevermind', 'Nirvana', 'DGC Records');
+VALUES (586158137, 'Grunge', 'Nevermind', 'Nirvana', 'DGC Records');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (6668578761, 'Pop', 'Anti', 'Rihanna', 'Westbury Road');
+VALUES (666857876, 'Pop', 'Anti', 'Rihanna', 'Westbury Road');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (7531146307, 'Lana Del Rey', 'Born to Die', 'Interscope Records');
+VALUES (753114630, 'Lana Del Rey', 'Born to Die', 'Interscope Records');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (6990168547, 'Indie Rock', 'AM', 'Arctic Monkeys', 'Domino Recording');
+VALUES (699016854, 'Indie Rock', 'AM', 'Arctic Monkeys', 'Domino Recording');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (2764842850, 'Indie Pop', 'Lungs', 'Florence + The Machine', 'Universal Music');
+VALUES (276484285, 'Indie Pop', 'Lungs', 'Florence + The Machine', 'Universal Music');
 
 
 
---Members
+-- Members
 INSERT INTO member (member_id, name, dob)
 VALUES (5001, 'Jill Stoney', 1992-11-14);
 
@@ -242,32 +242,32 @@ INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7013, '0143039989',
 
 -- cds
 -- 1989 - Taylor Swift, 2 copies
-INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7014, NULL, '5467377580');
-INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7015, NULL, '5467377580');
+INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7014, NULL, '546737758');
+INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7015, NULL, '546737758');
 
 -- Divide - Ed Sheeran, 1 copy
-INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7016, NULL, '6213712033');
+INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7016, NULL, '621371203');
 
 -- Abbey Road - The Beatles, 1 copy
-INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7017, NULL, '9923690515');
+INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7017, NULL, '992369051');
 
 -- Dark Side of the Moon - Pink Floyd, 1 copy
-INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7018, NULL, '2357624816');
+INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7018, NULL, '235762481');
 
 -- 21, 2 copies
-INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7019, NULL, '7619019417');
-INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7020, NULL, '7619019417');
+INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7019, NULL, '761901941');
+INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7020, NULL, '761901941');
 
 -- Teenage Dream, 1 copy
-INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7021, NULL, '4382985522');
+INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7021, NULL, '438298552');
 
 -- Starboy, 1 copy
-INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7022, NULL, '9400804225');
+INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7022, NULL, '940080422');
 
 -- Thriller, 3 copies
-INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7023, NULL, '8245389784');
-INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7024, NULL, '8245389784');
-INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7025, NULL, '8245389784');
+INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7023, NULL, '824538978');
+INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7024, NULL, '824538978');
+INSERT INTO inventory (inventory_id, book_id, cd_id) VALUES (7025, NULL, '824538978');
 
 
 -- loans
