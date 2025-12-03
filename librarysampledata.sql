@@ -114,7 +114,7 @@ INSERT INTO cd (ISSN, genre, title, artist, record_label)
 VALUES (666857876, 'Pop', 'Anti', 'Rihanna', 'Westbury Road');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
-VALUES (753114630, 'Lana Del Rey', 'Born to Die', 'Interscope Records');
+VALUES (753114630, 'Alt Pop', 'Born to Die', 'Lana Del Rey', 'Interscope Records');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label)
 VALUES (699016854, 'Indie Rock', 'AM', 'Arctic Monkeys', 'Domino Recording');
