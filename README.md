@@ -40,7 +40,12 @@ LibraryProject/
 ├── Library-ER-Diagram.mwb      # MySQL Workbench ER diagram
 
 
+├── queries.sql                  # Test queries
+
+
 ├── README.md                   # This file
+
+
 
 **Setup Instructions:**
 -------------------
@@ -115,3 +120,8 @@ All actions interact directly with the MySQL database.
 
 **Test queries:**
 ------------------
+To test the queries in the queries.sql file, enter the following command in the terminal (Make sure you are in LibraryProject folder): 
+
+            mysql -u root -p < queries.sql 
+This command will run the files without entering the MySQL shell.
+It will run SELECT queries and print results.
