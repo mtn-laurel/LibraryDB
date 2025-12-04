@@ -1,7 +1,8 @@
-# LibraryDB
 
 CSC 4402 Database Project 
 -------------------------
+Emery Jones, Layla Jones, Julian Madrigal, Katherine Winchester, Taylor Wall, Calvin Gavin
+
 **Library Managment System**
 
 This project is a Library Management System for a Library called Bargain Bins Books Library. 
@@ -95,14 +96,20 @@ Open MySQL terminal or MySQL Workbench.
 6. You will be prompted to enter your database name and MySQL password.
    
 3. Use the numbered menu to:
+   
+    Manage books
+   
+    Manage CDs
+   
+    Manage Members
 
-    Add, update, delete, or view books and CDs
-   
-    Manage members
-   
-    Add inventory items
-   
-    Issue or return loans
+    Manage Inventory
+
+    Manage Loans
+
+    or
+
+    Exit Program
 
 All actions interact directly with the MySQL database.
 
