@@ -268,64 +268,64 @@ VALUES (1954839243, 'Fiction', 'F. Scott Fitzgerald', 'The Great Gatsby', 'Charl
 
 
 -- CDs
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (546737758, 'Synth-pop', '1989', 'Taylor Swift', 'Big Machine Records', 'teens');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (621371203, 'Pop', 'Divide', 'Ed Sheeran', 'Atlantic Records', 'teens');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (761901941, 'Pop', '21', 'Adele', 'XL Recordings', 'teens');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (992369051, 'Rock', 'Abbey Road', 'The Beatles', 'Apple Records', 'adults');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (757860280, 'Hip-Hop', 'Views', 'Drake', 'Cash Money Records', 'adults');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (674982918, 'R&B', 'Lemonade', 'Beyonce', 'Columbia Records', 'adults');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (438298552, 'Pop', 'Teenage Dream', 'Katy Perry', 'Capitol Records', 'teens');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (940080422, 'Pop', 'Starboy', 'The Weeknd', 'XO Records', 'teens');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (235762481, 'Psychedelic Rock', 'Dark Side of the Moon', 'Pink Floyd', 'Capitol Records', 'adults');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (824538978, 'Pop', 'Thriller', 'Michael Jackson', 'Epic Records', 'adults');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (348638078,'EDM', 'Purpose', 'Justin Bieber', 'Def Jam Recordings', 'teens');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (669080241, 'Soul', 'In the Lonely Hour', 'Sam Smith', 'Capitol Records', 'teens');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (264390199, 'Synth-pop', 'The Fame', 'Lady Gaga', 'Interscope Records', 'teens');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (635100828, 'Rock and Roll', 'Born to Run', 'Bruce Springsteen', 'Columbia Records', 'adults');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (604061697, 'Pop Rock', 'Songs About Jane', 'Maroon 5', 'Octone Records', 'teens');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (586158137, 'Grunge', 'Nevermind', 'Nirvana', 'DGC Records', 'adults');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (666857876, 'Pop', 'Anti', 'Rihanna', 'Westbury Road', 'adults');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (753114630, 'Alt Pop', 'Born to Die', 'Lana Del Rey', 'Interscope Records', 'teens');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (699016854, 'Indie Rock', 'AM', 'Arctic Monkeys', 'Domino Recording', 'teens');
 
-INSERT INTO cd (ISSN, genre, title, artist, record_label)
+INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
 VALUES (276484285, 'Indie Pop', 'Lungs', 'Florence + The Machine', 'Universal Music', 'teens');
 
 
