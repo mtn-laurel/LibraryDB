@@ -68,17 +68,20 @@ Download and install Python 3 from python.org.
         pip install mysql-connector-python
 
 5. Set Up Database
-Open MySQL terminal or MySQL Workbench.
 
-    Create the database:
+   Open your terminal and create the database:
+    
+           mysql -u root -p
+   Then inside MySQL create the database:
     
         CREATE DATABASE mydb;
+        EXIT;
     
-   Import the SQL dump:
+   Import the database SQL dump:
     
         mysql -u root -p mydb < LibraryProject.sql
     
-    Enter your password if prompted.
+   Enter your password if prompted.
 
     This will create all tables (book, cd, member, inventory, loan) and populate sample data.
 
@@ -89,6 +92,7 @@ Open MySQL terminal or MySQL Workbench.
    On macOS with MySQL installed via Homebrew:
 
         brew services start mysql
+   
     On Windows, start the MySQL service from the Services app or XAMPP/WAMP control      panel.
    
     On Linux (Ubuntu):
@@ -96,9 +100,14 @@ Open MySQL terminal or MySQL Workbench.
        sudo service mysql start
 
 3. Open a terminal in the project directory.
-4. Run the CLI script:
-5.             python3 library_cli.py
-6. You will be prompted to enter your database name and MySQL password.
+  
+        cd LibraryProject
+   
+5. Run the CLI script:
+
+        python3 library_cli.py
+
+8. You will be prompted to enter the database name (mydb) and MySQL password.
    
 3. Use the numbered menu to:
    
@@ -122,6 +131,7 @@ All actions interact directly with the MySQL database.
 ------------------
 To test the queries in the queries.sql file, enter the following command in the terminal (Make sure you are in LibraryProject folder): 
 
-            mysql -u root -p < queries.sql 
+            mysql -u root -p mydb < queries.sql 
+            
 This command will run the files without entering the MySQL shell.
-It will run SELECT queries and print results.
+It will run SELECT queries and print results into the terminal.
