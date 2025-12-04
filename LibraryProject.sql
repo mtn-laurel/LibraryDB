@@ -208,123 +208,123 @@ SET @@SESSION.SQL_LOG_BIN = @MYSQLDUMP_TEMP_LOG_BIN;
 -- INSERT INTO book (ISBN, genre, author, title, publisher, department)
 -- VALUES (0544273443, 'Fantasy', 'J.R.R. Tolkien', 'Lord of the Rings Deluxe Edition', 'Allen & Unwin', 'adults');
 
-INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (0573702411, 'Mystery', 'Agatha Christie', 'Death on the Nile', 'Collins Crime Club', 'adults');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (1455582875, 'Romance', 'Nicholas Sparks', 'The Notebook', 'Warner Books', 'adults');
+VALUES ('0573702411', 'Mystery', 'Agatha Christie', 'Death on the Nile', 'Collins Crime Club', 'adults');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (0553382578, 'Sci-Fi', 'Isaac Asimov', 'Foundation', 'Gnome Press', 'adults');
+VALUES ('1455582875', 'Romance', 'Nicholas Sparks', 'The Notebook', 'Warner Books', 'adults');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (1501143107, 'Thriller', 'Stephen King', 'Misery', 'Viking', 'adults');
+VALUES ('0553382578', 'Sci-Fi', 'Isaac Asimov', 'Foundation', 'Gnome Press', 'adults');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (0553386794, 'Fantasy', 'George R.R. Martin', 'A Game of Thrones', 'Bantam Spectra', 'adults');
+VALUES ('1501143107', 'Thriller', 'Stephen King', 'Misery', 'Viking', 'adults');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (0143039989, 'Horror', 'Shirley Jackson', 'The Haunting of Hill House', 'Viking', 'teens');
+VALUES ('0553386794', 'Fantasy', 'George R.R. Martin', 'A Game of Thrones', 'Bantam Spectra', 'adults');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (0743270754, 'History', 'Doris Kearns Goodwin', 'Team of Rivals: The Political Genius of Abraham Lincoln', 'Simon & Schuster', 'adults');
+VALUES ('0143039989', 'Horror', 'Shirley Jackson', 'The Haunting of Hill House', 'Viking', 'teens');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (0316017930, 'Non-fiction', 'Malcolm Gladwell', 'Outliers: The Story of Success', 'Little, Brown and Company', 'adults');
+VALUES ('0743270754', 'History', 'Doris Kearns Goodwin', 'Team of Rivals: The Political Genius of Abraham Lincoln', 'Simon & Schuster', 'adults');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (0241265541, 'Fiction', 'Leo Tolstoy', 'War and Peace', 'The Russian Messenger', 'adults');
+VALUES ('0316017930', 'Non-fiction', 'Malcolm Gladwell', 'Outliers: The Story of Success', 'Little, Brown and Company', 'adults');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (1982176865, 'Biography', 'Walter Isaacson', 'Steve Jobs', 'Simon & Schuster ', 'adults');
+VALUES ('0241265541', 'Fiction', 'Leo Tolstoy', 'War and Peace', 'The Russian Messenger', 'adults');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (0060244887, 'Fantasy', 'C.S. Lewis', 'The Chronicles of Narnia Box Set', 'HarperCollins', 'kids');
+VALUES ('1982176865', 'Biography', 'Walter Isaacson', 'Steve Jobs', 'Simon & Schuster ', 'adults');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (0143107321, 'Adventure', 'Mark Twain', 'The Adventures of Huckleberry Finn', 'Chatto & Windus', 'teens');
+VALUES ('0060244887', 'Fantasy', 'C.S. Lewis', 'The Chronicles of Narnia Box Set', 'HarperCollins', 'kids');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (0553897446, 'Mystery', 'Arthur Conan Doyle', 'The Adventures of Sherlock Holmes', 'George Newnes', 'teens');
+VALUES ('0143107321', 'Adventure', 'Mark Twain', 'The Adventures of Huckleberry Finn', 'Chatto & Windus', 'teens');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (0141439513, 'Romance', 'Jane Austen', 'Pride and Prejudice', 'T. Egerton', 'teens');
+VALUES ('0553897446', 'Mystery', 'Arthur Conan Doyle', 'The Adventures of Sherlock Holmes', 'George Newnes', 'teens');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (0140569324, 'Picture Book', 'Eric Carle', 'The Very Hungry Caterpillar', 'World Publishing Company', 'kids');
+VALUES ('0141439513', 'Romance', 'Jane Austen', 'Pride and Prejudice', 'T. Egerton', 'teens');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (1558585362, 'Picture Book', 'Marcus Pfister', 'The Rainbow Fish', 'NordSüd Verlag', 'kids');
+VALUES ('0140569324', 'Picture Book', 'Eric Carle', 'The Very Hungry Caterpillar', 'World Publishing Company', 'kids');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (0385504217, 'Thriller', 'Dan Brown', 'The Da Vinci Code', 'Doubleday', 'adults');
+VALUES ('1558585362', 'Picture Book', 'Marcus Pfister', 'The Rainbow Fish', 'NordSüd Verlag', 'kids');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (1954839243, 'Fiction', 'F. Scott Fitzgerald', 'The Great Gatsby', 'Charles Scribner’s Sons', 'teens');
+VALUES ('0385504217', 'Thriller', 'Dan Brown', 'The Da Vinci Code', 'Doubleday', 'adults');
+
+INSERT INTO book (ISBN, genre, author, title, publisher, department)
+VALUES ('1954839243', 'Fiction', 'F. Scott Fitzgerald', 'The Great Gatsby', 'Charles Scribner’s Sons', 'teens');
 
 
 
 -- CDs
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (546737758, 'Synth-pop', '1989', 'Taylor Swift', 'Big Machine Records', 'teens');
+VALUES ('546737758', 'Synth-pop', '1989', 'Taylor Swift', 'Big Machine Records', 'teens');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (621371203, 'Pop', 'Divide', 'Ed Sheeran', 'Atlantic Records', 'teens');
+VALUES ('621371203', 'Pop', 'Divide', 'Ed Sheeran', 'Atlantic Records', 'teens');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (761901941, 'Pop', '21', 'Adele', 'XL Recordings', 'teens');
+VALUES ('761901941', 'Pop', '21', 'Adele', 'XL Recordings', 'teens');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (992369051, 'Rock', 'Abbey Road', 'The Beatles', 'Apple Records', 'adults');
+VALUES ('992369051', 'Rock', 'Abbey Road', 'The Beatles', 'Apple Records', 'adults');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (757860280, 'Hip-Hop', 'Views', 'Drake', 'Cash Money Records', 'adults');
+VALUES ('757860280', 'Hip-Hop', 'Views', 'Drake', 'Cash Money Records', 'adults');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (674982918, 'R&B', 'Lemonade', 'Beyonce', 'Columbia Records', 'adults');
+VALUES ('674982918', 'R&B', 'Lemonade', 'Beyonce', 'Columbia Records', 'adults');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (438298552, 'Pop', 'Teenage Dream', 'Katy Perry', 'Capitol Records', 'teens');
+VALUES ('438298552', 'Pop', 'Teenage Dream', 'Katy Perry', 'Capitol Records', 'teens');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (940080422, 'Pop', 'Starboy', 'The Weeknd', 'XO Records', 'teens');
+VALUES ('940080422', 'Pop', 'Starboy', 'The Weeknd', 'XO Records', 'teens');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (235762481, 'Psychedelic Rock', 'Dark Side of the Moon', 'Pink Floyd', 'Capitol Records', 'adults');
+VALUES ('235762481', 'Psychedelic Rock', 'Dark Side of the Moon', 'Pink Floyd', 'Capitol Records', 'adults');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (824538978, 'Pop', 'Thriller', 'Michael Jackson', 'Epic Records', 'adults');
+VALUES ('824538978', 'Pop', 'Thriller', 'Michael Jackson', 'Epic Records', 'adults');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (348638078,'EDM', 'Purpose', 'Justin Bieber', 'Def Jam Recordings', 'teens');
+VALUES ('348638078','EDM', 'Purpose', 'Justin Bieber', 'Def Jam Recordings', 'teens');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (669080241, 'Soul', 'In the Lonely Hour', 'Sam Smith', 'Capitol Records', 'teens');
+VALUES ('669080241', 'Soul', 'In the Lonely Hour', 'Sam Smith', 'Capitol Records', 'teens');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (264390199, 'Synth-pop', 'The Fame', 'Lady Gaga', 'Interscope Records', 'teens');
+VALUES ('264390199', 'Synth-pop', 'The Fame', 'Lady Gaga', 'Interscope Records', 'teens');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (635100828, 'Rock and Roll', 'Born to Run', 'Bruce Springsteen', 'Columbia Records', 'adults');
+VALUES ('635100828', 'Rock and Roll', 'Born to Run', 'Bruce Springsteen', 'Columbia Records', 'adults');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (604061697, 'Pop Rock', 'Songs About Jane', 'Maroon 5', 'Octone Records', 'teens');
+VALUES ('604061697', 'Pop Rock', 'Songs About Jane', 'Maroon 5', 'Octone Records', 'teens');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (586158137, 'Grunge', 'Nevermind', 'Nirvana', 'DGC Records', 'adults');
+VALUES ('586158137', 'Grunge', 'Nevermind', 'Nirvana', 'DGC Records', 'adults');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (666857876, 'Pop', 'Anti', 'Rihanna', 'Westbury Road', 'adults');
+VALUES ('666857876', 'Pop', 'Anti', 'Rihanna', 'Westbury Road', 'adults');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (753114630, 'Alt Pop', 'Born to Die', 'Lana Del Rey', 'Interscope Records', 'teens');
+VALUES ('753114630', 'Alt Pop', 'Born to Die', 'Lana Del Rey', 'Interscope Records', 'teens');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (699016854, 'Indie Rock', 'AM', 'Arctic Monkeys', 'Domino Recording', 'teens');
+VALUES ('699016854', 'Indie Rock', 'AM', 'Arctic Monkeys', 'Domino Recording', 'teens');
 
 INSERT INTO cd (ISSN, genre, title, artist, record_label, department)
-VALUES (276484285, 'Indie Pop', 'Lungs', 'Florence + The Machine', 'Universal Music', 'teens');
-
+VALUES ('276484285', 'Indie Pop', 'Lungs', 'Florence + The Machine', 'Universal Music', 'teens');
 
 
 -- Members
