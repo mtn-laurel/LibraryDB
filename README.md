@@ -78,9 +78,22 @@ Open MySQL terminal or MySQL Workbench.
 
 **Running the Python CLI**
 ----------------------
-1. Open a terminal in the project directory.
-2. Run the CLI script:
-3.             python3 library_cli.py
+1. Make sure MySQL server is running.
+
+   On macOS with MySQL installed via Homebrew:
+
+        brew services start mysql
+    On Windows, start the MySQL service from the Services app or XAMPP/WAMP control      panel.
+   
+    On Linux (Ubuntu):
+
+       sudo service mysql start
+
+3. Open a terminal in the project directory.
+4. Run the CLI script:
+5.             python3 library_cli.py
+6. You will be prompted to enter your database name and MySQL password.
+   
 3. Use the numbered menu to:
 
     Add, update, delete, or view books and CDs
