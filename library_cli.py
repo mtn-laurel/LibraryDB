@@ -5,7 +5,7 @@ def connect_db():
     try:
         cnx = mysql.connector.connect(
             host='localhost',
-            database='mydb',
+            database=input("Enter database name: "),
             user='root',
             password=input("Enter MySQL password (leave blank if none): ")
         )
@@ -264,52 +264,104 @@ def main():
         return
     
     while True:
-        print("\n\n--------------------------")
+        print("\n\n==========================")
         print("Library Management CLI")
-        print("--------------------------")
-        print("BOOKS")
-        print("1. Add book")
-        print("2. Update book")
-        print("3. Delete book")
-        print("4. View all books")
-        print("-------------------")
-        print("CDS")
-        print("5. Add CD")
-        print("6. Update CD")
-        print("7. Delete CD")
-        print("8. View all CDs")
-        print("-------------------")
-        print("MEMBERS")
-        print("10. Delete member")
-        print("11. View members")
-        print("-------------------")
-        print("INVENTORY")
-        print("12. Add inventory item")
-        print("13. View inventory")
-        print("-------------------")
-        print("LOANS")
-        print("14. Issue loan")
-        print("15. Return loan")
-        print("16. View loans")
-        print("-------------------")
-        print("EXIT")
-        print("17. Exit Program\n\n")
+        print("==========================")
+        print("1. Manage Books")
+        print("2. Manage CDs")
+        print("3. Manage Members")
+        print("4. Manage Inventory")
+        print("5. Manage Loans")
+        print("6. Exit Program\n")
 
-        choice = input("Choose an option: ")
-        menu_map = {
-            '1': add_book, '2': update_book, '3': delete_book, '4': view_books,
-            '5': add_cd, '6': update_cd, '7': delete_cd, '8': view_cds,
-            '9': add_member, '10': delete_member, '11': view_members,
-            '12': add_inventory, '13': view_inventory,
-            '14': issue_loan, '15': return_loan, '16': view_loans
-        }
-        if choice == '17':
+        category_choice = input("Choose a category: ")
+
+        if category_choice == '1':  # Books
+            while True:
+                print("\n--- BOOKS ---")
+                print("1. Add book")
+                print("2. Update book")
+                print("3. Delete book")
+                print("4. View all books")
+                print("5. Back to main menu\n")
+                choice = input("Choose an option: ")
+                if choice == '5':
+                    break
+                books_menu = {'1': add_book, '2': update_book, '3': delete_book, '4': view_books}
+                if choice in books_menu:
+                    books_menu[choice](cnx)
+                else:
+                    print("Invalid choice. Try again.")
+
+        elif category_choice == '2':  # CDs
+            while True:
+                print("\n--- CDS ---")
+                print("1. Add CD")
+                print("2. Update CD")
+                print("3. Delete CD")
+                print("4. View all CDs")
+                print("5. Back to main menu\n")
+                choice = input("Choose an option: ")
+                cds_menu = {'1': add_cd, '2': update_cd, '3': delete_cd, '4': view_cds}
+                if choice == '5':
+                    break
+                elif choice in cds_menu:
+                    cds_menu[choice](cnx)
+                else:
+                    print("Invalid choice. Try again.")
+
+        elif category_choice == '3':  # Members
+            while True:
+                print("\n--- MEMBERS ---")
+                print("1. Add member")
+                print("2. Delete member")
+                print("3. View members")
+                print("4. Back to main menu\n")
+                choice = input("Choose an option: ")
+                members_menu = {'1': add_member, '2': delete_member, '3': view_members}
+                if choice == '4':
+                    break
+                elif choice in members_menu:
+                    members_menu[choice](cnx)
+                else:
+                    print("Invalid choice. Try again.")
+
+        elif category_choice == '4':  # Inventory
+            while True:
+                print("\n--- INVENTORY ---")
+                print("1. Add inventory item")
+                print("2. View inventory")
+                print("3. Back to main menu\n")
+                choice = input("Choose an option: ")
+                inventory_menu = {'1': add_inventory, '2': view_inventory}
+                if choice == '3':
+                    break
+                elif choice in inventory_menu:
+                    inventory_menu[choice](cnx)
+                else:
+                    print("Invalid choice. Try again.")
+
+        elif category_choice == '5':  # Loans
+            while True:
+                print("\n--- LOANS ---")
+                print("1. Issue loan")
+                print("2. Return loan")
+                print("3. View loans")
+                print("4. Back to main menu\n")
+                choice = input("Choose an option: ")
+                loans_menu = {'1': issue_loan, '2': return_loan, '3': view_loans}
+                if choice == '4':
+                    break
+                elif choice in loans_menu:
+                    loans_menu[choice](cnx)
+                else:
+                    print("Invalid choice. Try again.")
+
+        elif category_choice == '6':  # Exit
             print("Exiting CLI.")
             break
-        elif choice in menu_map:
-            menu_map[choice](cnx)
         else:
-            print("Invalid choice. Try again.")
+            print("Invalid category. Try again.")
 
     cnx.close()
 
