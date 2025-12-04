@@ -20,9 +20,6 @@ SET @@SESSION.SQL_LOG_BIN= 0;
 --
 -- GTID state at the beginning of the backup 
 --
-
-SET @@GLOBAL.GTID_PURGED=/*!80000 '+'*/ '3dd9e418-cfe3-11f0-be4f-20d4c76abb6d:1-59';
-
 --
 -- Table structure for table `book`
 --
@@ -205,11 +202,11 @@ SET @@SESSION.SQL_LOG_BIN = @MYSQLDUMP_TEMP_LOG_BIN;
 
 
 -- Books
-INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (1338878921, 'Fiction', 'J.K. Rowling', 'Harry Potter and the Sorcerer’s Stone', 'Scholastic', 'teens');
+-- INSERT INTO book (ISBN, genre, author, title, publisher, department)
+-- VALUES (1338878921, 'Fiction', 'J.K. Rowling', 'Harry Potter and the Sorcerer’s Stone', 'Scholastic', 'teens');
 
-INSERT INTO book (ISBN, genre, author, title, publisher, department)
-VALUES (0544273443, 'Fantasy', 'J.R.R. Tolkien', 'Lord of the Rings Deluxe Edition', 'Allen & Unwin', 'adults');
+-- INSERT INTO book (ISBN, genre, author, title, publisher, department)
+-- VALUES (0544273443, 'Fantasy', 'J.R.R. Tolkien', 'Lord of the Rings Deluxe Edition', 'Allen & Unwin', 'adults');
 
 INSERT INTO book (ISBN, genre, author, title, publisher, department)
 VALUES (0573702411, 'Mystery', 'Agatha Christie', 'Death on the Nile', 'Collins Crime Club', 'adults');
